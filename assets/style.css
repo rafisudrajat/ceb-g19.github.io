@@ -1,0 +1,50 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+/* Reload */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic bootstrap-like classes */
+.w-100vw {
+    width: 100vw;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.bg-teal {
+    background-color: teal;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* Coming Soon Page */
+h1.coming_soon {
+    font-family: 'Nunito', sans-serif;
+    font-size: 7rem;
+    margin: 0;
+    text-align: center;
+    color: rgb(113, 218, 218);
+    transition: all 0.5s;
+    cursor: none;
+}
+
+h1.coming_soon:hover {
+    color: black;
+}
